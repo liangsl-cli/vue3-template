@@ -1,5 +1,4 @@
 import Axios from "axios";
-// import { store } from "../store/index";
 import { ElMessage } from "element-plus";
 
 import type { AxiosRequestConfig, AxiosResponse } from "axios";
