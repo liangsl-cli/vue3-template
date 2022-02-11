@@ -13,10 +13,10 @@ export default defineConfig({
   server: {
     host: true,
     proxy: {
-      '/aj_project': {
-        target: 'http://157.0.243.82:9090/',
-        changeOrigin: true
-      }
-    },
+      // '/aj_project': {
+      //   target: 'http://157.0.243.82:9090/',
+      //   changeOrigin: true
+      // }
+    }
   }
 })

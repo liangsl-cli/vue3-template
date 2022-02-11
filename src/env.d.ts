@@ -7,13 +7,6 @@ declare module '*.vue' {
   export default component
 }
 
-declare global {
-  interface Window {
-    GKits: any
-    ICPSDK: any
-  }
-}
-
 import type { AxiosRequestConfig } from "axios";
 declare module "axios" {
   interface AxiosInstance {
